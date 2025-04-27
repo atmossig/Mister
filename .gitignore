@@ -3,3 +3,4 @@
 *.lib
 *.pdb
 Intermediate
+*.vcxproj.user
