@@ -1,0 +1,3 @@
+%MISTER_SOURCE%				$(mister_source)		Points to the source code			EXAMPLE: C:/Dev/Mister/Source
+%MISTER_INTERMEDIATE%		$(mister_intermedate)	Points to the Intermediate path		EXAMPLE: C:/Dev/Mister/Intermediate/$(Platform)/$(Configuration)/$(Project)
+%MISTER_BUILD%				$(mister_build)			Points to the Build path			EXAMPLE: C:/Dev/Mister/Build/$(Platform)/$(Configuration)/$(Project)

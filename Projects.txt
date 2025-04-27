@@ -1,0 +1,6 @@
+Any LIB file is linked into the EXE.
+
+Any external libraries or code is stored in /Source/ThirdParty/
+
+/Source/ApplicationCore/					Game_$(Platform)_$(Configuration).exe --> Application for the game.
+/Source/Core/Renderer/						Renderer.lib --> Core renderer code (Vulkan) that other code can build off of.
