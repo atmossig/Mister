@@ -12,6 +12,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateProject_EXE", "Sour
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateProject_LIB", "Source\Templates\TemplateProject_LIB.vcxproj", "{5F12A49D-58DA-0068-ED39-1C84B25B9790}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__Tests__", "__Tests__", "{8095D888-6992-4FE9-9CE6-EE41FE7BBA6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		BankRelease|Win64 = BankRelease|Win64
@@ -52,5 +54,8 @@ Global
 		{584F3D97-F856-5DFD-1780-8DC5919221EF} = {28977E0D-6AD6-47F3-9EA2-49687CE54218}
 		{ADE480A9-7D01-BF4E-62E7-04539111A452} = {28977E0D-6AD6-47F3-9EA2-49687CE54218}
 		{5F12A49D-58DA-0068-ED39-1C84B25B9790} = {28977E0D-6AD6-47F3-9EA2-49687CE54218}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {142FB592-01B8-4329-A4AA-64173B8ECC44}
 	EndGlobalSection
 EndGlobal
