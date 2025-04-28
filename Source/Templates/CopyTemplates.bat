@@ -2,7 +2,7 @@
 
 SET SCRIPT_DIR=%~dp0
 
-SET PS_SCRIPT_PATH="%SCRIPT_DIR%CopyMisterTemplates.ps1"
+SET PS_SCRIPT_PATH="%SCRIPT_DIR%CopyTemplates.ps1"
 
 IF NOT EXIST %PS_SCRIPT_PATH% (
     echo ERROR: PowerShell script not found at %PS_SCRIPT_PATH%
