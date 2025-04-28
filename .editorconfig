@@ -1,0 +1,20 @@
+# Top-most EditorConfig file
+root = true
+
+# Apply to all files
+[*]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# C++ specific settings
+[*.{h, hpp, c, cpp, cxx}]
+indent_style = tab
+indent_size = 4
+tab_width = 4
+
+[*.{glsl, hlsl}]
+indent_style = tab
+indent_size = 4
+tab_width = 4
