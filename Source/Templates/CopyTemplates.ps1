@@ -3,7 +3,7 @@ $TemplateFiles = @(
     "Mister DLL.zip",
     "Mister Executable.zip",
 	"Mister Console Executable.zip",
-    "Mister LIB.zip"
+    "Mister Library.zip"
 )
 $DocumentsPath = [Environment]::GetFolderPath("MyDocuments")
 $TargetBaseDir = Join-Path -Path $DocumentsPath -ChildPath "Visual Studio 2022"
