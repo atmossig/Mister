@@ -6,12 +6,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MisterEngine", "MisterEngin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__Templates__", "__Templates__", "{28977E0D-6AD6-47F3-9EA2-49687CE54218}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateProject_DLL", "Source\Templates\TemplateProject_DLL.vcxproj", "{584F3D97-F856-5DFD-1780-8DC5919221EF}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateProject_EXE", "Source\Templates\TemplateProject_EXE.vcxproj", "{ADE480A9-7D01-BF4E-62E7-04539111A452}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateProject_LIB", "Source\Templates\TemplateProject_LIB.vcxproj", "{5F12A49D-58DA-0068-ED39-1C84B25B9790}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__Tests__", "__Tests__", "{8095D888-6992-4FE9-9CE6-EE41FE7BBA6E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplicationTest", "Source\TestUnits\Executables\ConsoleApplicationTest\ConsoleApplicationTest.vcxproj", "{ED1C068E-26C2-478E-BFB7-9A3F602051AB}"
@@ -24,30 +18,6 @@ Global
 		Release|Win64 = Release|Win64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{584F3D97-F856-5DFD-1780-8DC5919221EF}.BankRelease|Win64.ActiveCfg = BankRelease|x64
-		{584F3D97-F856-5DFD-1780-8DC5919221EF}.BankRelease|Win64.Build.0 = BankRelease|x64
-		{584F3D97-F856-5DFD-1780-8DC5919221EF}.Debug|Win64.ActiveCfg = Debug|x64
-		{584F3D97-F856-5DFD-1780-8DC5919221EF}.Debug|Win64.Build.0 = Debug|x64
-		{584F3D97-F856-5DFD-1780-8DC5919221EF}.Profile|Win64.ActiveCfg = Profile|x64
-		{584F3D97-F856-5DFD-1780-8DC5919221EF}.Profile|Win64.Build.0 = Profile|x64
-		{584F3D97-F856-5DFD-1780-8DC5919221EF}.Release|Win64.ActiveCfg = Release|x64
-		{584F3D97-F856-5DFD-1780-8DC5919221EF}.Release|Win64.Build.0 = Release|x64
-		{ADE480A9-7D01-BF4E-62E7-04539111A452}.BankRelease|Win64.ActiveCfg = BankRelease|x64
-		{ADE480A9-7D01-BF4E-62E7-04539111A452}.BankRelease|Win64.Build.0 = BankRelease|x64
-		{ADE480A9-7D01-BF4E-62E7-04539111A452}.Debug|Win64.ActiveCfg = Debug|x64
-		{ADE480A9-7D01-BF4E-62E7-04539111A452}.Debug|Win64.Build.0 = Debug|x64
-		{ADE480A9-7D01-BF4E-62E7-04539111A452}.Profile|Win64.ActiveCfg = Profile|x64
-		{ADE480A9-7D01-BF4E-62E7-04539111A452}.Profile|Win64.Build.0 = Profile|x64
-		{ADE480A9-7D01-BF4E-62E7-04539111A452}.Release|Win64.ActiveCfg = Release|x64
-		{ADE480A9-7D01-BF4E-62E7-04539111A452}.Release|Win64.Build.0 = Release|x64
-		{5F12A49D-58DA-0068-ED39-1C84B25B9790}.BankRelease|Win64.ActiveCfg = BankRelease|x64
-		{5F12A49D-58DA-0068-ED39-1C84B25B9790}.BankRelease|Win64.Build.0 = BankRelease|x64
-		{5F12A49D-58DA-0068-ED39-1C84B25B9790}.Debug|Win64.ActiveCfg = Debug|x64
-		{5F12A49D-58DA-0068-ED39-1C84B25B9790}.Debug|Win64.Build.0 = Debug|x64
-		{5F12A49D-58DA-0068-ED39-1C84B25B9790}.Profile|Win64.ActiveCfg = Profile|x64
-		{5F12A49D-58DA-0068-ED39-1C84B25B9790}.Profile|Win64.Build.0 = Profile|x64
-		{5F12A49D-58DA-0068-ED39-1C84B25B9790}.Release|Win64.ActiveCfg = Release|x64
-		{5F12A49D-58DA-0068-ED39-1C84B25B9790}.Release|Win64.Build.0 = Release|x64
 		{ED1C068E-26C2-478E-BFB7-9A3F602051AB}.BankRelease|Win64.ActiveCfg = BankRelease|x64
 		{ED1C068E-26C2-478E-BFB7-9A3F602051AB}.BankRelease|Win64.Build.0 = BankRelease|x64
 		{ED1C068E-26C2-478E-BFB7-9A3F602051AB}.Debug|Win64.ActiveCfg = Debug|x64
@@ -61,9 +31,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{584F3D97-F856-5DFD-1780-8DC5919221EF} = {28977E0D-6AD6-47F3-9EA2-49687CE54218}
-		{ADE480A9-7D01-BF4E-62E7-04539111A452} = {28977E0D-6AD6-47F3-9EA2-49687CE54218}
-		{5F12A49D-58DA-0068-ED39-1C84B25B9790} = {28977E0D-6AD6-47F3-9EA2-49687CE54218}
 		{ED1C068E-26C2-478E-BFB7-9A3F602051AB} = {8095D888-6992-4FE9-9CE6-EE41FE7BBA6E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
