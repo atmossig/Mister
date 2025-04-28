@@ -75,8 +75,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <OutDir>$(Mister_Build)\$(ProjectName)\</OutDir>
-    <IntDir>$(Mister_Intermediate)\$(ProjectName)\</IntDir>
+    <OutDir>$(Mister_Build)\Binaries\Win64\$(ProjectName)\</OutDir>
+    <IntDir>$(Mister_Intermediate)\$(ProjectName)\Win64_$(Configuration)</IntDir>
     <TargetName>$(ProjectName)_Win64_$(Configuration)</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
