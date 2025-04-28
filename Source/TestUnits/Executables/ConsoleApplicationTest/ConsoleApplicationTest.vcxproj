@@ -77,7 +77,7 @@
   <PropertyGroup>
     <OutDir>$(Mister_Build)\$(ProjectName)\</OutDir>
     <IntDir>$(Mister_Intermediate)\$(ProjectName)\</IntDir>
-    <TargetName>$(ProjectName)_$(Platform)_$(Configuration)</TargetName>
+    <TargetName>$(ProjectName)_Win64_$(Configuration)</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
