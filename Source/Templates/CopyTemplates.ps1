@@ -1,8 +1,9 @@
 $SourcePath = $PSScriptRoot
 $TemplateFiles = @(
-    "Mister DLL Project.zip",
-    "Mister Executable Project.zip",
-    "Mister LIB Project.zip"
+    "Mister DLL.zip",
+    "Mister Executable.zip",
+	"Mister Console Executable.zip",
+    "Mister LIB.zip"
 )
 $DocumentsPath = [Environment]::GetFolderPath("MyDocuments")
 $TargetBaseDir = Join-Path -Path $DocumentsPath -ChildPath "Visual Studio 2022"
